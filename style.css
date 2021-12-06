@@ -363,12 +363,14 @@ header {
 
 .portifolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .portifolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .portifolio__img {
